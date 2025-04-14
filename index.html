@@ -6,20 +6,28 @@
   <title>MTG Card</title>
   <link rel="stylesheet" href="style.css" />
 </head>
+  
 <body>
+  
   <div class="card">
     <h2 class="card-name">Rhystic Study <img src="mana icon/2.svg" alt="{2}" class="mana-icon"><img src="mana icon/U.svg" alt="{U}" class="mana-icon"></h2>
     <p class="card-type">Enchantment</p>
     <p class="card-text">Whenever an opponent casts a spell, you may draw a card unless that player pays <img src="mana icon/1.svg" alt="{1}" class="mana-icon">.</p>
   </div>
-  <div class="card-image"> 
-    <div class="tap-target">
-    <img src="https://cards.scryfall.io/large/front/d/6/d6914dba-0d27-4055-ac34-b3ebf5802221.jpg?1600698439" alt="Rhystic Study">
+  
+  <div class="card-image">
+  <div class="tap-target">
+    <div class="tap-target-container"> 
+        <img src="https://cards.scryfall.io/large/front/d/6/d6914dba-0d27-4055-ac34-b3ebf5802221.jpg?1600698439" alt="Rhystic Study">
     </div>
-    <button class="tap-button" >
-      <img src="mana icon/T.svg" alt="Tap">
-    </button> 
   </div>
+    
+    <button class="tap-button" >
+        <img src="mana icon/T.svg" alt="Tap">
+    </button>
+  </div>
+  
+  
   <script>
     const tapButton = document.querySelector(".tap-button");
     const tapTarget = document.querySelector(".tap-target");

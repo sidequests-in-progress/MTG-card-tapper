@@ -16,18 +16,24 @@ body {
   max-height: 300px;
   max-width: 250px;
   text-align: center;
+  gap: 20px;
 }
 
 .card-image{
   display: flex;
   flex-direction: column ;
   align-items: center;  
+  
+}
+
+.tap-target-container{
   padding: 5px;
   border-radius: 5%;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
   margin: 20px auto;
   max-height: 420px;
 }
+
 
 .card-image img{
   width: 300px;
@@ -68,6 +74,10 @@ body {
   align-items: center;
   border-radius: 50%;
   transition: 0.2s ease;
+  /*position: absolute;
+  top: 100%;         
+  left: 100%;*/
+  
 }
 
 .tap-button:hover{
@@ -81,4 +91,3 @@ body {
 .tapped {
   transform: rotate(90deg);
 }
-
