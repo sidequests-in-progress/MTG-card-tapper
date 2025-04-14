@@ -1,0 +1,84 @@
+body {
+  background: #1e1e1e;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #2a2a2a;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  padding: 100px;
+  max-height: 300px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.card-image{
+  display: flex;
+  flex-direction: column ;
+  align-items: center;  
+  padding: 5px;
+  border-radius: 5%;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  margin: 20px auto;
+  max-height: 420px;
+}
+
+.card-image img{
+  width: 300px;
+  border-radius: 5%;  
+}
+
+.card-name {
+  font-size: 1.4em;
+  margin-bottom: 0.5em;
+  
+}
+
+.card-type {
+  font-style: italic;
+  color: #c0c0c0;
+}
+
+.card-text {
+  margin-top: 1em;
+  color: #ddd;
+}
+
+.mana-icon{
+  width: 15px;
+  height: 15px;
+  margin-left: 5px;
+  margin-bottom: -2px
+  
+}
+
+.tap-button{
+  background: #2a2a2a;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: 0.2s ease;
+}
+
+.tap-button:hover{
+  background: #3a3a3a
+}
+
+.tap-target {
+  transition: transform 0.3s ease;
+}
+
+.tapped {
+  transform: rotate(90deg);
+}
+
